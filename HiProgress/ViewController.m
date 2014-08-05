@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "HiProgressView.h"
 @interface ViewController ()
 
 @end
@@ -17,7 +17,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    
+    HiProgressView *progressView = [[HiProgressView alloc]initWithFrame:CGRectMake((320-263)/2, 100, 263, 12) withProgress:0.7];//传入参数范围0~1
+    [self.view addSubview:progressView];
+
+    
+
 }
 
 - (void)didReceiveMemoryWarning

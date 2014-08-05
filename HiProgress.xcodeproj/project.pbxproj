@@ -21,6 +21,14 @@
 		12D06F711990B11000C74640 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12D06F531990B11000C74640 /* UIKit.framework */; };
 		12D06F791990B11000C74640 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 12D06F771990B11000C74640 /* InfoPlist.strings */; };
 		12D06F7B1990B11000C74640 /* HiProgressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12D06F7A1990B11000C74640 /* HiProgressTests.m */; };
+		12D06F8F1990B15500C74640 /* HiProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12D06F861990B15500C74640 /* HiProgressView.m */; };
+		12D06F901990B15500C74640 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D06F881990B15500C74640 /* 1.png */; };
+		12D06F911990B15500C74640 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D06F891990B15500C74640 /* 2.png */; };
+		12D06F921990B15500C74640 /* t0.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D06F8A1990B15500C74640 /* t0.png */; };
+		12D06F931990B15500C74640 /* t1.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D06F8B1990B15500C74640 /* t1.png */; };
+		12D06F941990B15500C74640 /* t2.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D06F8C1990B15500C74640 /* t2.png */; };
+		12D06F951990B15500C74640 /* t3.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D06F8D1990B15500C74640 /* t3.png */; };
+		12D06F961990B15500C74640 /* t4.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D06F8E1990B15500C74640 /* t4.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,15 @@
 		12D06F761990B11000C74640 /* HiProgressTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HiProgressTests-Info.plist"; sourceTree = "<group>"; };
 		12D06F781990B11000C74640 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		12D06F7A1990B11000C74640 /* HiProgressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HiProgressTests.m; sourceTree = "<group>"; };
+		12D06F851990B15500C74640 /* HiProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HiProgressView.h; sourceTree = "<group>"; };
+		12D06F861990B15500C74640 /* HiProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HiProgressView.m; sourceTree = "<group>"; };
+		12D06F881990B15500C74640 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		12D06F891990B15500C74640 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		12D06F8A1990B15500C74640 /* t0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = t0.png; sourceTree = "<group>"; };
+		12D06F8B1990B15500C74640 /* t1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = t1.png; sourceTree = "<group>"; };
+		12D06F8C1990B15500C74640 /* t2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = t2.png; sourceTree = "<group>"; };
+		12D06F8D1990B15500C74640 /* t3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = t3.png; sourceTree = "<group>"; };
+		12D06F8E1990B15500C74640 /* t4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = t4.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +129,8 @@
 		12D06F551990B11000C74640 /* HiProgress */ = {
 			isa = PBXGroup;
 			children = (
+				12D06F841990B15500C74640 /* HiProgress */,
+				12D06F871990B15500C74640 /* Image */,
 				12D06F5E1990B11000C74640 /* AppDelegate.h */,
 				12D06F5F1990B11000C74640 /* AppDelegate.m */,
 				12D06F611990B11000C74640 /* Main.storyboard */,
@@ -150,6 +169,29 @@
 				12D06F771990B11000C74640 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12D06F841990B15500C74640 /* HiProgress */ = {
+			isa = PBXGroup;
+			children = (
+				12D06F851990B15500C74640 /* HiProgressView.h */,
+				12D06F861990B15500C74640 /* HiProgressView.m */,
+			);
+			path = HiProgress;
+			sourceTree = "<group>";
+		};
+		12D06F871990B15500C74640 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				12D06F881990B15500C74640 /* 1.png */,
+				12D06F891990B15500C74640 /* 2.png */,
+				12D06F8A1990B15500C74640 /* t0.png */,
+				12D06F8B1990B15500C74640 /* t1.png */,
+				12D06F8C1990B15500C74640 /* t2.png */,
+				12D06F8D1990B15500C74640 /* t3.png */,
+				12D06F8E1990B15500C74640 /* t4.png */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +270,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12D06F951990B15500C74640 /* t3.png in Resources */,
 				12D06F681990B11000C74640 /* Images.xcassets in Resources */,
+				12D06F931990B15500C74640 /* t1.png in Resources */,
+				12D06F901990B15500C74640 /* 1.png in Resources */,
+				12D06F911990B15500C74640 /* 2.png in Resources */,
+				12D06F961990B15500C74640 /* t4.png in Resources */,
+				12D06F921990B15500C74640 /* t0.png in Resources */,
 				12D06F5A1990B11000C74640 /* InfoPlist.strings in Resources */,
 				12D06F631990B11000C74640 /* Main.storyboard in Resources */,
+				12D06F941990B15500C74640 /* t2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12D06F8F1990B15500C74640 /* HiProgressView.m in Sources */,
 				12D06F661990B11000C74640 /* ViewController.m in Sources */,
 				12D06F601990B11000C74640 /* AppDelegate.m in Sources */,
 				12D06F5C1990B11000C74640 /* main.m in Sources */,
